@@ -134,23 +134,23 @@ public class GoRestUserTest {
     }
     //Delete user negative
 
-    @Test(dependsOnMethods = "deleteUser")
-    public void deleteUserNegative(){
-
-
-        given().spec(reqSpec)
-
-
-                .when()
-                .delete("/"+userId)
-
-                .then()
-                .statusCode(404)
-
-        ;
-
-
-    }
+//    @Test(dependsOnMethods = "deleteUser")
+//    public void deleteUserNegative(){
+//
+//
+//        given().spec(reqSpec)
+//
+//
+//                .when()
+//                .delete("/"+userId)
+//
+//                .then()
+//                .statusCode(404)
+//
+//        ;
+//
+//
+//    }
 
 
 

@@ -151,19 +151,19 @@ public class _06_CountryTest {
 
     //Çalışmıyor ÇüNKÜ Site izin vermiyor
 
-    @Test(dependsOnMethods ="deleteCountry" )
-    public void deleteNegativeCountry(){
-
-        given().spec(reqSpec)
-
-                .when().delete("/school-service/api/countries/"+countryId)
-
-                .then().statusCode(400)
-
-        ;
-
-
-    }
+//    @Test(dependsOnMethods ="deleteCountry" )
+//    public void deleteNegativeCountry(){
+//
+//        given().spec(reqSpec)
+//
+//                .when().delete("/school-service/api/countries/"+countryId)
+//
+//                .then().statusCode(400)
+//
+//        ;
+//
+//
+//    }
 
 
 }
