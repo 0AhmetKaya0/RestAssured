@@ -144,7 +144,7 @@ public class _06_CountryTest {
 
                 .when().delete("/school-service/api/countries/"+countryId)
 
-                .then().statusCode(200)
+                .then().statusCode(202) //Jenkins için hata oluşturuldu 200 normalde
 
                 ;
     }
